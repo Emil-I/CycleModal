@@ -16,7 +16,6 @@ body {
   -ms-flex-direction: row;
   flex-direction: row;
   width: 250px;
-  min-height: 90px;
   background-color: black;
   border-radius: 10px;
   color: white;
@@ -29,4 +28,8 @@ body {
 
 .cycle-modal-main_show {
   right: 20px;
+}
+
+.CycleModal-disable-link {
+  cursor: default !important;
 }
