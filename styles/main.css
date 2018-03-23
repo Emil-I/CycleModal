@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.cycle-modal-main {
+  position: fixed;
+  top: 20px;
+  right: -290px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  width: 250px;
+  min-height: 90px;
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+  -webkit-transition: all .4s;
+  -o-transition: all .4s;
+  transition: all .4s;
+}
+
+.cycle-modal-main_show {
+  right: 20px;
+}
